@@ -2,24 +2,24 @@ async horace_star() {
 
 	await roll(18, 55, 3.0) //first vertex
 	await stopRoll()
-	await roll(162, 55, 3.4)
+	await roll(162, 55, 3.4) //first to second
 	await stopRoll()
 	await roll(90, 55, 3.4) //second vertex
 	await stopRoll()
-	await roll(234, 55, 3.4)
+	await roll(234, 55, 3.4) //second to third
 	await stopRoll()
 	await roll(162, 55, 3.4) //third vertex
 	await stopRoll()
-	await roll(306, 55, 3.4)
+	await roll(306, 55, 3.4) //third to fourth
 	await stopRoll()
 	await roll(234, 55, 3.4) //fourth vertex
 	await stopRoll()
-	await roll(18, 55, 3.4)
+	await roll(18, 55, 3.4) //fourth to fifth
 	await stopRoll()
 	await roll(306, 55, 3.4) //fifth vertex
 	await stopRoll()
-	await roll(90, 55, 3.4)
+	await roll(90, 55, 3.4) //fifth to first
 	await stopRoll()
-	await roll(0, 50, 0.1)
+	await roll(0, 50, 0.1) //reset
 
 }
