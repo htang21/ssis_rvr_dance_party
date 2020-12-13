@@ -1,32 +1,26 @@
-
-robert_square() {
-
-	// This is our sample code for making the RVR drive in a square.
-
-	await roll(0,50,1.8) //Drive for two seconds at a speed of 50 at a heading of 0 degrees.
+async horacestar() {
+	
+	await roll(0,60,1.3) //straight 1
 	await stopRoll()
-	await roll(90,50,2.875) //Continue for each corner of the square
+	await roll(288,60,1.9) //first triangle
 	await stopRoll()
-	await roll(180,50,2.85)
+	await roll(72,60,2.3) //first triangle down
 	await stopRoll()
-	await roll(270,50,2.8)
+	await roll(0,60,1.8) //straight 1-2
+	await stopRoll()
+	await roll(144,60,2) //second triangle
+	await stopRoll()
+	await roll(72,60,1.8) //second triangle down
+	await stopRoll()
+	await roll(216,60,2) //third triangle
+	await stopRoll()
+	await roll(144,60,2) //third triangle down
+	await stopRoll()
+	await roll(288,60,2) //fourth triangle
+	await stopRoll()
+	await roll(216,60,2) //fourth triangle down
 	await stopRoll()
 	
-	await roll(0,1,0.5) //This realigns the robot at the end of the movement.
+	await roll(0,1,0.1)
 	
 }
-
-Horace_square() {
-	// This is our sample code for making the RVR drive in a square.
-
-	await roll(0,50,1.8) //Drive for two seconds at a speed of 50 at a heading of 0 degrees.
-	await stopRoll()
-	await roll(90,50,2.4) //Continue for each corner of the square
-	await stopRoll()
-	await roll(180,50,2.5)
-	await stopRoll()
-	await roll(270,50,2.4)
-  	await stopRoll()
-	
-	await roll(0,1,0.5) //This realigns the robot at the end of the movement.
- }
